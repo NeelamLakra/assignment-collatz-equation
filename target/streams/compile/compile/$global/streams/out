@@ -1,0 +1,11 @@
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/assignment-collatzequation/src/main/scala/edu/knoldus/package.scala:17:47: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Int(0)[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m        loop(n, current + 1, collatz(current, 0) -> current :: acc)[0m
+[0m[[0m[31merror[0m] [0m[0m                                              ^[0m
+[0m[[0m[31merror[0m] [0m[0m/home/knoldus/IdeaProjects/assignment-collatzequation/src/main/scala/edu/knoldus/package.scala:20:35: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : (Long, Long)[0m
+[0m[[0m[31merror[0m] [0m[0m required: List[Int][0m
+[0m[[0m[31merror[0m] [0m[0m    loop(n, 1, Nil).sortBy(-_._1).head[0m
+[0m[[0m[31merror[0m] [0m[0m                                  ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
