@@ -7,13 +7,13 @@ package object knoldus {
       list match {
         case head :: tail if (head != input) => equation(tail, number)
         case head :: tail if (head == input) => true
-        case head :: Nil if (head != input) => false
+        case head :: Nil if (head == input) => true
         case _ =>    false
       }
     }
 
     equation(list, number) match {
-      case true => secondlist
+      case true => list :::secondlist
 
       case false => {
         number % 2 match {
